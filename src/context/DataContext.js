@@ -71,7 +71,7 @@ export function DataContextProvider({ children }) {
     savePDF(DomNode, {
       paperSize: "auto",
       margin: 40,
-      fileName: `quickr-${new Date().getDay()}`,
+      fileName: `resume-${new Date().getDay()}`,
     });
   }
 
