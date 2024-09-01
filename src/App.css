@@ -1,0 +1,104 @@
+@font-face {
+  font-family: Poppins;
+  src: url("./poppins.ttf");
+}
+
+
+:root {
+  /* yellow theme */
+   /* --dark: #2B2B2B;      
+  --dark-m: #4A4A4A;    
+  --dark-m-2: #303030;  
+  --yel: #FFB400;       
+  --yel-m: #CC9A00;     
+  --yel-tp: rgba(204, 154, 0, 0.4);
+  --grey: #6E6E6E;      
+  --l-grey: #F0F0F0;    
+  --w: #FFFFFF;       
+  --w-m: #FAFAFA;        */
+
+/* Earthy Tones */
+  /* --dark: #3B3A30;
+  --dark-m: #5C5B52;
+  --dark-m-2: #4A473F;
+  --yel: #A67C52;
+  --yel-m: #D9A066;
+  --yel-tp: rgba(169, 114, 62, 0.4);
+  --grey: #7C8071;
+  --l-grey: #E6E8E3;
+  --w: #FFFFFF;
+  --w-m: #F5F5F2; */
+
+  /* Warm Autumn */
+
+  /* --dark: #4E342E;
+  --dark-m: #6D4C41;
+  --dark-m-2: #5D4037;
+  --yel: #FF7043;
+  --yel-m: #FF8A65;
+  --yel-tp: rgba(255, 112, 67, 0.4);
+  --grey: #A1887F;
+  --l-grey: #D7CCC8;
+  --w: #FFFFFF;
+  --w-m: #FAFAFA; */
+
+  /* Muted Pastels */
+  /* --dark: #37474F;
+  --dark-m: #546E7A;
+  --dark-m-2: #455A64;
+  --yel: #FFAB91;
+  --yel-m: #FFCCBC;
+  --yel-tp: rgba(255, 171, 145, 0.4);
+  --grey: #90A4AE;
+  --l-grey: #CFD8DC;
+  --w: #FFFFFF;
+  --w-m: #F4F5F5; */
+
+  /* Soft Ocean */
+  --dark: #2A3D45;
+  --dark-m: #3E5C6D;
+  --dark-m-2: #324B55;
+  --yel: #88BDBC;
+  --yel-m: #A0CFD3;
+  --yel-tp: rgba(136, 189, 188, 0.4);
+  --grey: #738290;
+  --l-grey: #D4E0E1;
+  --w: #FFFFFF;
+  --w-m: #EDF4F5;
+
+
+
+
+
+
+}
+.icon{
+  color: var(--yel) !important;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+li{
+  list-style:none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  background: var(--w);
+  overflow-y: hidden;
+  overflow-x: hidden;
+  font-family: Poppins;
+}
