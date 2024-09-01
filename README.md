@@ -11,7 +11,7 @@ To run quickr locally, follow the steps below.
 1. Clone the repo
 
 ```sh
-    git clone https://github.com/Benrobo/quickr.git
+    git clone https://github.com/saifullah72437/resume-maker.git
 ```
 
 2. Install All Avaialable Dependencies.
